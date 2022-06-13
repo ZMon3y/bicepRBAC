@@ -1,7 +1,7 @@
 # Deploy the 00_main.bicep template
 $iteration='01'
 $location = 'southcentralus'
-$outputs = az deployment sub create --location $location = 'southcentralus'--template-file .\bicep\00_main.bicep --parameters iteration=$iteration  --query properties.outputs
+$outputs = az deployment sub create --location $location --template-file .\bicep\00_main.bicep --parameters iteration=$iteration  --query properties.outputs
 # Capture needed outputs
 $outputsJSON = $outputs | ConvertFrom-Json
 $storageAccountName = $outputsJSON.storageAccountName.value

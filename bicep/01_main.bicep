@@ -40,7 +40,7 @@ var principalIds = { //TODO:
   Admin: 'd6c44347-04ec-4878-a943-23ec6d083370'
   DataEngineer: ''
   DataScientist: ''
-  me: ''
+  me: '815b3665-a5a6-4e13-9963-f9d52b2b210d'
   // MI_StorageAccount: storageAccountSystemManagedIdentity
 }
 // Add or remove elements of this array to grant permissions to specific roles

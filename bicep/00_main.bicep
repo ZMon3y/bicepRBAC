@@ -32,7 +32,7 @@ var rgTags = {
 }
 
 var storageAccountContainersDatabasesTags = {
-  DataClssification: 'General'
+  DataClassification: 'General'
 }
 
 var rgName = 'rg-${workloadName}-${environmentType}-${location}-${iteration}'
